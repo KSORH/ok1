@@ -22,5 +22,10 @@ public class example2_10 {
 		// scanner 닫기 (굳이 적지 않아도 된다)
 		scanner.close();
 
+		int i;
+		for(i = 0; i < 10; i++) {
+			//내가 실행 할 것
+			System.out.print(i);
+		}
 	}
 }
